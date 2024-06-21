@@ -29,7 +29,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class XMLGenerator extends AbstractGenerator {
-    private static final Path XML_FILE_PATH = Paths.get("C:", "Users", "AmarKharssa", "IdeaProjects", "FU-IT", "data-formats", "src", "main", "resources", "xmlFile.json");
+    private static final Path XML_FILE_PATH = Paths.get("C:", "Users", "AmarKharssa", "IdeaProjects", "FU-IT", "data-formats", "src", "main", "resources", "xmlFile.xml");
     private static final String SCHEMA_FILE_PATH = "C:\\Users\\AmarKharssa\\IdeaProjects\\FU-IT\\data-formats\\src\\main\\java\\org\\example\\xml\\schema.xsd";
 
     @Override
