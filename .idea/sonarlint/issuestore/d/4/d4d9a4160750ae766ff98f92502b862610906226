@@ -1,0 +1,5 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(õæÇìıÿÿÿÿ8˜ÿßÌƒ2J$2d88743a-fbac-4754-8826-e964141410ca
+Œ
+java:S2095"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(Ó÷»8˜ÿßÌƒ2J$c0ad931c-3c51-44c5-8689-660772900afe
+m	java:S106"+Replace this use of System.out by a logger.(Ïıé€8ÿßÌƒ2J$0d4e3022-7850-4c7a-ba99-1848b4f3f0aa

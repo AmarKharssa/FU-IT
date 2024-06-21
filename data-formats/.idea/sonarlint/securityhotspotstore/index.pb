@@ -1,0 +1,23 @@
+
+S
+#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+9
+	readme.md,2\7\275d783e298228506068436512433d343feb52aa
+_
+/src/main/java/org/example/xml/XMLGenerator.java,0\d\0d0fe3a3e0c58ca87f03cee42ecaa3cf30507a36
+D
+Kundenbestellung.xml,6\7\67044b20f45f0110639826c182e62d8e5361d6dd
+a
+1src/main/java/org/example/json/JSONGenerator.java,2\e\2eacfa726ebd606d1a31aa549f9b6f7e5e671a4a
+Z
+*src/main/java/org/example/json/Schema.json,d\1\d1feb9064cfa97a1b5a40d99cb4207a9c91a1abc
+X
+(src/main/java/org/example/xml/schema.xsd,2\5\25354f195a13988b61fc82acc62c55d9a4faecda
+\
+,src/main/java/org/example/json/JSONFILE.json,7\8\78f3a7ed856d169708cf55d776edfb76b93124de
+Y
+)src/main/java/org/example/xml/XMLFILE.xml,d\d\dd694737ee1fcca1829f3f08db773b14b0dfa9a0

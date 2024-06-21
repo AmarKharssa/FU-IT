@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="database">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="clients">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="client" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstname" type="xs:string"/>
+                                        <xs:element name="lastname" type="xs:string"/>
+                                        <xs:element name="birthday" type="xs:dateTime"/>
+                                        <xs:element name="address">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="street" type="xs:string"/>
+                                                    <xs:element name="city" type="xs:string"/>
+                                                    <xs:element name="postalCode" type="xs:string"/>
+                                                    <xs:element name="country" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="openOrders">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="order" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="orderId" type="xs:int"/>
+                                        <xs:element name="clientId" type="xs:int"/>
+                                        <xs:element name="product" type="xs:string"/>
+                                        <xs:element name="quantity" type="xs:int"/>
+                                        <xs:element name="price" type="xs:double"/>
+                                        <xs:element name="status" type="xs:string"/>
+                                        <xs:element name="orderDate" type="xs:dateTime"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="closedOrders">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="order" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="orderId" type="xs:int"/>
+                                        <xs:element name="clientId" type="xs:int"/>
+                                        <xs:element name="product" type="xs:string"/>
+                                        <xs:element name="quantity" type="xs:int"/>
+                                        <xs:element name="price" type="xs:double"/>
+                                        <xs:element name="status" type="xs:string"/>
+                                        <xs:element name="orderDate" type="xs:dateTime"/>
+                                        <xs:element name="deliveryDate" type="xs:dateTime"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

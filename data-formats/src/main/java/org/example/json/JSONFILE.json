@@ -1,0 +1,79 @@
+{
+    "clients": [
+        {
+            "birthday": "1990-01-01T00:00:00Z",
+            "firstname": "John",
+            "address": {
+                "country": "Germany",
+                "city": "Berlin",
+                "street": "Musterstraße 1",
+                "postalCode": "10115"
+            },
+            "lastname": "Doe"
+        },
+        {
+            "birthday": "1985-05-15T00:00:00Z",
+            "firstname": "Jane",
+            "address": {
+                "country": "Germany",
+                "city": "Hamburg",
+                "street": "Beispielweg 2",
+                "postalCode": "20095"
+            },
+            "lastname": "Smith"
+        },
+        {
+            "birthday": "1978-09-20T00:00:00Z",
+            "firstname": "Max",
+            "address": {
+                "country": "Germany",
+                "city": "Munich",
+                "street": "Beethovenstraße 3",
+                "postalCode": "80331"
+            },
+            "lastname": "Mustermann"
+        }
+    ],
+    "openOrders": [
+        {
+            "product": "Laptop",
+            "clientId": 1,
+            "quantity": 1,
+            "orderId": 1,
+            "price": 1200,
+            "orderDate": "2024-06-01T10:00:00Z",
+            "status": "open"
+        },
+        {
+            "product": "Smartphone",
+            "clientId": 2,
+            "quantity": 2,
+            "orderId": 2,
+            "price": 800,
+            "orderDate": "2024-06-02T11:30:00Z",
+            "status": "open"
+        }
+    ],
+    "closedOrders": [
+        {
+            "product": "Tablet",
+            "clientId": 3,
+            "quantity": 1,
+            "orderId": 3,
+            "price": 500,
+            "deliveryDate": "2024-05-20T14:00:00Z",
+            "orderDate": "2024-05-15T09:45:00Z",
+            "status": "closed"
+        },
+        {
+            "product": "Monitor",
+            "clientId": 1,
+            "quantity": 2,
+            "orderId": 4,
+            "price": 300,
+            "deliveryDate": "2024-05-15T12:30:00Z",
+            "orderDate": "2024-05-10T08:00:00Z",
+            "status": "closed"
+        }
+    ]
+}

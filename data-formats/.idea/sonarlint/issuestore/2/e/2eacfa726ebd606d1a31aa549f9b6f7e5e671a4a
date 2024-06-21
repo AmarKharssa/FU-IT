@@ -1,0 +1,18 @@
+
+‹
+java:S1192Q"HDefine a constant instead of duplicating this literal "product" 4 times.(»ì¢ñ8úğÔ·ã1J$43841a8e-0fe5-4b2a-84f3-c1e83718b55a
+‘
+java:S1192R"IDefine a constant instead of duplicating this literal "quantity" 4 times.(¦¨Œ˜ùÿÿÿÿ8ûğÔ·ã1J$f9eceb61-dc99-4ab6-95df-9beb0b4c38d5
+
+java:S1192S"GDefine a constant instead of duplicating this literal "status" 4 times.(›¹Ä­ùÿÿÿÿ8ığÔ·ã1J$6ee1d85e-e389-4514-b7d7-0be8e4b0cb17
+Œ
+java:S2095+"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(Ó÷»8‡òÔ·ã1J$65fd292b-5ae4-4e17-be74-a9d532395a22
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(Ÿ Ÿ£şÿÿÿÿ8’òÔ·ã1J$c1aa728c-80b0-4b4f-8fd0-ae45a5ea5aff
+‰
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÓÆáäûÿÿÿÿ8™òÔ·ã1J$d01682ff-1b46-456e-8ed8-26e6087f8e12
+„	java:S899""BDo something with the "boolean" value returned by "createNewFile".(úÜ²¥8©òÔ·ã1J$69fc0c1e-1d57-493d-9b9d-554c9b955242
+„
+java:S1075%"ARefactor your code to get this URI from a customizable parameter.(­·ö•8«òÔ·ã1J$33e499c0-6b76-4511-9a5c-1b1a3016e5e4
+m	java:S1065"+Replace this use of System.out by a logger.(–Êå€8¶òÔ·ã1J$7bd2df52-b70b-478d-8711-231dcda8ecc1
+l	java:S1068"+Replace this use of System.err by a logger.(ÇÑ¿)8¸òÔ·ã1J$acc594e6-95d3-4af0-b45d-9818c39283e3

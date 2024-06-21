@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "clients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "firstname": { "type": "string" },
+          "lastname": { "type": "string" },
+          "birthday": { "type": "string", "format": "date-time" },
+          "address": {
+            "type": "object",
+            "properties": {
+              "street": { "type": "string" },
+              "city": { "type": "string" },
+              "postalCode": { "type": "string" },
+              "country": { "type": "string" }
+            },
+            "required": ["street", "city", "postalCode", "country"]
+          }
+        },
+        "required": ["firstname", "lastname", "birthday", "address"]
+      }
+    },
+    "openOrders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "orderId": { "type": "integer" },
+          "clientId": { "type": "integer" },
+          "product": { "type": "string" },
+          "quantity": { "type": "integer" },
+          "price": { "type": "number" },
+          "status": { "type": "string" },
+          "orderDate": { "type": "string", "format": "date-time" }
+        },
+        "required": ["orderId", "clientId", "product", "quantity", "price", "status", "orderDate"]
+      }
+    },
+    "closedOrders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "orderId": { "type": "integer" },
+          "clientId": { "type": "integer" },
+          "product": { "type": "string" },
+          "quantity": { "type": "integer" },
+          "price": { "type": "number" },
+          "status": { "type": "string" },
+          "orderDate": { "type": "string", "format": "date-time" },
+          "deliveryDate": { "type": "string", "format": "date-time" }
+        },
+        "required": ["orderId", "clientId", "product", "quantity", "price", "status", "orderDate", "deliveryDate"]
+      }
+    }
+  },
+  "required": ["clients", "openOrders", "closedOrders"]
+}

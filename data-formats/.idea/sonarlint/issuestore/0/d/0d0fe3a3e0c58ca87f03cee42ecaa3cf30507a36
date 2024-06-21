@@ -1,0 +1,13 @@
+
+
+java:S2095:"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÍöÄ¬úÿÿÿÿ8ªˆˆå1J$5e668a36-e6a1-45e1-9931-eaa97d83b087
+Œ
+java:S2095'"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(Ó÷»8œªˆˆå1J$6e61f0d0-04a7-40d8-a2c6-3e51e7a20bfa
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(Ï£ã›şÿÿÿÿ8¨ªˆˆå1J$38442f4d-0579-4595-8bdb-33b0c9b23a6f
+‰
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¡çşÕüÿÿÿÿ8´ªˆˆå1J$5a71b83b-e532-4db3-9756-a03aaa09d6db
+„
+java:S1075!"ARefactor your code to get this URI from a customizable parameter.(¾¥Ã„8µªˆˆå1J$15a08eb1-eddd-468c-995c-ae54635fa53d
+l	java:S1061"+Replace this use of System.out by a logger.(ÿ½ØH8Áªˆˆå1J$ff22b56e-8c16-47e3-b5dd-94c9c4ab38c8
+l	java:S1064"+Replace this use of System.err by a logger.(ÇÑ¿)8Ãªˆˆå1J$5cef759a-1ba6-4c89-80f8-eb2e0c23b77f
